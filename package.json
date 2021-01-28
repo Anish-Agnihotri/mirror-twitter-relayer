@@ -17,7 +17,13 @@
   },
   "homepage": "https://github.com/Anish-Agnihotri/mirror-twitter-relayer#readme",
   "dependencies": {
+    "@prisma/client": "^2.15.0",
     "arweave": "^1.10.3",
-    "axios": "^0.21.1"
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "twit": "^2.2.11"
+  },
+  "devDependencies": {
+    "@prisma/cli": "^2.15.0"
   }
 }
