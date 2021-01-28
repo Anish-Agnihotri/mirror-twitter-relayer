@@ -121,4 +121,10 @@ async function tweetIfExists(tweetURL) {
   }
 }
 
+// Run relayer on initial push
 runRelayer();
+
+// Run relayer every hour
+setInterval(() => {
+  runRelayer();
+}, 60 * 60 * 1000);
