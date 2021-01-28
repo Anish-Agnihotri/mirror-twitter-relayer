@@ -14,7 +14,7 @@ const arweave = Arweave.init({
 const prisma = new PrismaClient();
 
 // Initialize dotenv
-require("dotenv").config();
+if (process.env.NODE_ENV !== "production") require("dotenv").config();
 
 // Initialize Twit
 const twit = new Twit({
