@@ -72,7 +72,7 @@ async function runRelayer() {
   });
   // Filter untweeted posts for only unique URLs
   const untweetedPostURLS = untweetedPosts.map((post) => post.url);
-  const untweetedPostURLSUnique = [...new Set(untweetedPostURLS)];
+  const untweetedPostURLSUnique = [...new Set(untweetedPostURLS)].reverse();
 
   // For each untweeted url, tweet and then toggle tweeted attribute
   for (const url of untweetedPostURLSUnique) {
