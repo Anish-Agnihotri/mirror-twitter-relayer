@@ -1,0 +1,23 @@
+{
+  "name": "mirror-twitter-relayer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anish-Agnihotri/mirror-twitter-relayer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anish-Agnihotri/mirror-twitter-relayer/issues"
+  },
+  "homepage": "https://github.com/Anish-Agnihotri/mirror-twitter-relayer#readme",
+  "dependencies": {
+    "arweave": "^1.10.3",
+    "axios": "^0.21.1"
+  }
+}
