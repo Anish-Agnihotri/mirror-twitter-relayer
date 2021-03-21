@@ -110,7 +110,7 @@ async function generateMirrorURL(txID) {
 
 async function tweetIfExists(tweetURL) {
   const pageContent = await axios.get(tweetURL); // Collect HTML page content
-  const pageExists = !pageContent.data.includes("Page not found"); // Check if page exists
+  const pageExists = !pageContent.data.includes("<title>Mirror</title");  // Check if page exists
 
   // If page exists
   if (pageExists) {
